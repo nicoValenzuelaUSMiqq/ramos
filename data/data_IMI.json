@@ -1,0 +1,113 @@
+{
+	rq"s1": [
+    ["Educación Física I", "DEW100", 1, "HUM"],
+    ["Introducción a la Física", "FIS100", 3, "FI"],
+    ["Introducción a la Ingeniería", "IWG101", 2, "ROS"],	
+		["Matemáticas I", "MAT011", 5, "CEL"],		
+		["Programación", "IWI131", 3, "ROS"]		
+	],
+  
+  
+	rq"s2": [
+    ["Educación Física II", "DEW101", 1, "HUM", ["DEW100"]],
+    ["Física Básica I", "FIS109", 5, "FI", ["MAT021","FIS100"]],
+    ["Matemáticas II", "MAT012", 5, "CEL", ["MAT021"]],
+    ["Química y Sociedad", "QUI010", 3, "ROS"],
+		["Visión Trascendente del Quehacer Humano", "HRW101", 2, "HUM"]    				
+	],
+  
+  
+	rq"s3": [
+    ["Deportes", "DEW-0", 1, "HUM", ["DEW-101"]],
+    ["Gráfica en Ingeniería Mecánica", "IWM186", 3, "VER",["FIS100"]]
+    ["Materiales Para Ingeniería", "IWC203", 3, "ROS", ["QUI010"]]    
+		["Mecánica General", "IWM151", 4, "VER", ["MAT022", "FIS110"]],
+    ["Taller General", "IWM170", 4, "VER", ["MEC141","MET203","MEC151"]],
+    ["Visión Inmanente del Quehacer Humano", "HRW102", 2, "HUM"]				
+	],
+  
+  
+	rq"s4": [
+    ["Física Básica II", "FIS119",  3, "FI", ["MAT022","FIS110"]],
+    ["Gráfica de Sistemas Mecánicos", "IWM187", 4, "VER",["MEC141"]]
+    ["Inglés para Ingeniería", "HIW310", 2, "ING", ["HCW100"]]    	
+		["Matemáticas III", "MAT013", 4, "CEL", ["MAT023"]],
+    ["Taller II", "IWM175", 3, "VER", ["MEC141","MET203","MEC151"]],
+		["Visión Estética del Quehacer Humano", "HRW103", 2, "HUM"]
+	],
+  
+  
+	rq"s5": [    
+    ["Inglés para Ingeniería", "HIW311", 2, "ING", ["HCW100"]]
+    ["Matemáticas IV", "MAT014", 4, "CEL", ["MAT013"]],
+    ["Mediciones Mecánicas Generales", "IWM160", 3, "VER", ["MEC160"]],    
+		["Resistencia de Materiales Generales", "IWM255", 4, "CEL", ["MAT024"]],     
+		["Termodinámica General y Laboratorio", "IWM210", 4, "VER", ["MAT023","FIS110"]]    
+	],
+  
+  
+  ["Mecánica de Materiales", "MEC255", 4, "VER", ["MEC151","MET203"]],  
+  ["Inglés I", "HCW100", 2, "ING"],
+  ["Inglés II", "HCW101", 2, "ING", ["HCW100"]]
+  
+  
+	rq"s6": [
+		["Economía I-A", "IWN170",3, "CEL", ["MAT023"]],
+		["Elementos de Máquinas", "IWM280", 3, "VER", ["MEC255"]],
+    ["Física Básica III", "FIS129",  3, "FI", ["MAT022","FIS110"]],    
+		["Mecánica de Fluidos General", "IWM220", 4, "VER"],
+	  ["Procesos de Manufactura I", "IWC270", 3, "VER", ["MEC160"]]   
+	],
+  
+  
+	"s7": [
+		["Fundamentos de Electrotecnia", "ELI270", 3, "VER", ["MEC120"]],
+    
+    
+		["Mecánica de Máquinas", "MEC353", 3, "VER", ["MAT270","MEC252"]],
+		["Procesos de Manufactura", "MEC161", 3, "VER", ["MEC160"]],
+		["Termodinámica Aplicada", "MEC210", 4, "VER",["MEC110"]],
+		["Transferencia de Calor", "MEC230", 4, "VER", ["MEC120"]],
+		["Humanístico III", "HRW103", 2, "HUM"]
+	],
+  
+  
+	"s8": [
+		["Ingeniería Térmica", "MEC278", 3, "VER",["MEC220","MEC230"]], 
+		["Mediciones Mecánicas", "MEC260", 3, "VER", ["MEC160"]],
+		["Diseño Mecanico", "MEC346", 3, "VER",["MEC245","MEC258"]],
+		["Regulación y Contaminación Ambiental", "MEC346", 3, "VER",["MEC120","MEC230"]],
+		["Fundamentos de Electrotecnia", "ELI270", 4, "MO",["MAT022","FIS120"]],
+		["Electivo 1", "MEC1", 3, "AMA"]
+	],
+  
+  
+	"s9": [
+		["Equipo y Máquinas Térmicas", "MEC378", 4, "VER", ["MEC278"]],
+		["Métodos Numéricos en Ing. Mecánica", "MEC270", 3, "VER",["MAT270","MEC255","MEC120"]],
+		["Fundamentos de Calidad", "MEC280", 3, "VER",["MAT035"]],
+		["Fundamentos de Electronica", "ILD208", 3, "RO",["FIS120"]],
+		["Electivo 2", "MEC2", 3, "AMA"]
+	],
+  
+  
+	"s10": [
+		["Automatización, Neumática y Oleohidráulica", "MEC373", 3, "VER",["MEC260","MEC120"]],
+		["Tecnologías de Control Ambiental", "MEC383", 3, "VER",["MEC346"]],
+		["Turbomáquinas", "MEC374", 4, "VER",["MEC120"]],
+		["Electivo 3", "MEC3", 3, "AMA"]
+	],
+  
+  
+	"s11": [
+		["Proyecto en Ingeniería Mecánica", "MEC381", 4, "NARA"],
+		["Seminario de Titulación de Ing. Civil Mecánico", "MEC397", 3, "NARA"],
+		["Electivo 4", "MEC4", 3, "AMA"]
+	],
+  
+  
+	"s12": [
+		["Título De Ingeniería Civil Mecánica","MEC399", 8, "NARA"],
+		["Electivo 5", "MEC5", 3, "AMA"]
+	]
+}
